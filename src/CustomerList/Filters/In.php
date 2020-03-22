@@ -30,6 +30,7 @@ class In implements FilterInterface
     public function __construct(string $field, $values = [])
     {
         $this->field = $field;
+        $this->values = $values;
     }
 
     /**
