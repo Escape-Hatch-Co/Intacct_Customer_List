@@ -1,8 +1,4 @@
 <?php
-
-use Intacct\Functions\Common\GetList\FilterInterface;
-use Intacct\Xml\XMLWriter;
-
 /**
  * In Filter
  *
@@ -10,6 +6,12 @@ use Intacct\Xml\XMLWriter;
  * @subpackage Customer_list
  * @since      2020 Mar
  */
+
+namespace Intacct\CustomerList\Filters;
+
+use Intacct\Functions\Common\GetList\FilterInterface;
+use Intacct\Xml\XMLWriter;
+
 class In implements FilterInterface
 {
 
